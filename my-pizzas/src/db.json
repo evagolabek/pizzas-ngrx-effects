@@ -1,0 +1,51 @@
+{
+  "toppings": [
+    {
+      "id": 1,
+      "name": "cheese"
+    },
+    {
+      "id": 2,
+      "name": "rucola"
+    },
+    {
+      "id": 3,
+      "name": "basil"
+    },
+    {
+      "id": 4,
+      "name": "garlic"
+    }
+  ],
+  
+  "pizzas" : [
+    {
+      "name": "CheeseRucol",
+      "toppings": [
+        {
+          "id":1,
+          "name": "cheese"
+        },
+        {
+          "id":2,
+          "name": "rucola"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "CheeseGarlic",
+      "toppings": [
+        {
+          "id":1,
+          "name": "cheese"
+        },
+        {
+          "id":4,
+          "name": "garlic"
+        }
+      ],
+      "id": 2
+    }
+  ]
+}
