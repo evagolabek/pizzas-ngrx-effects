@@ -14,11 +14,6 @@ import { ProductsComponent } from './containers/products/products.component';
   ],
   imports: [
     BrowserModule,
-    //BrowserAnimationsModule,
-    //RouterModule.forRoot(ROUTES),
-    //StoreModule.forRoot({}, { metaReducers }),
-    //EffectsModule.forRoot([]),
-    //environment.development ? StoreDevtoolsModule.instrument() : [],
     AppRoutingModule
   ],
   providers: [],

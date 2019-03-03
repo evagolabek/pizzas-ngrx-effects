@@ -18,19 +18,19 @@ export const initialState = {
 
 export function reducer(
   state = initialState,
-  action: fromPizzas.PizzasAction
+  action: fromPizzas.PizzaActions
 ): PizzaState {
 
   //depending on the case we create variables and return new representation of the state
   switch(action.type) {
-    case fromPizzas.LOAD_PIZZAS: {
+    case fromPizzas.PizzaActionTypes.LoadPizzas: {
       return {
         ...state, 
         loading: true
       };
     }
 
-    case fromPizzas.LOAD_PIZZAS_SUCCESS: {
+    case fromPizzas.PizzaActionTypes.LoadPizzasSuccess: {
       return {
         ...state, 
         loading: false,
@@ -38,7 +38,7 @@ export function reducer(
       };
     }
 
-    case fromPizzas.LOAD_PIZZAS_FAIL: {
+    case fromPizzas.PizzaActionTypes.LoadPizzasFail: {
       return {
         ...state, 
         loading: false,
