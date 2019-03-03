@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { RouterModule } from '@angular/router';
+import { environment } from 'src/environments/environment';
 
 @NgModule({
   declarations: [
@@ -10,6 +12,11 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
+    //BrowserAnimationsModule,
+    //RouterModule.forRoot(ROUTES),
+    //StoreModule.forRoot({}, { metaReducers }),
+    //EffectsModule.forRoot([]),
+    //environment.development ? StoreDevtoolsModule.instrument() : [],
     AppRoutingModule
   ],
   providers: [],
